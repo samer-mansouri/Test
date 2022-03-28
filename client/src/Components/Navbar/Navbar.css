@@ -1,0 +1,52 @@
+.lin {
+  text-decoration: none !important;
+  font-size: 17px !important;
+  font-family: "Comic sans Ms", cursive, sans-serif !important;
+  font-style: italic !important;
+  color: white !important;
+  margin-left: 20px !important;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+.nav-link {
+  text-decoration: none !important;
+  font-size: 17px !important;
+  font-family: "Comic sans Ms", cursive, sans-serif !important;
+  font-style: italic !important;
+  color: white !important;
+  padding: 0px !important;
+  margin-left: 20px !important;
+}
+.dropdown-menu[data-bs-popper] {
+  top: 99% !important;
+  left: 20px !important;
+  margin-top: 0.125rem !important;
+}
+.lin:hover {
+  color: #dc3545 !important;
+}
+.linn:hover {
+  color: #dc3545 !important;
+}
+.nav-link:hover {
+  color: #dc3545 !important;
+}
+.icon {
+  background-color: transparent !important;
+  border: transparent !important;
+}
+
+.Profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Profile img {
+  border-radius: 50% !important;
+  margin-left: 20px !important;
+  overflow: hidden !important;
+  width: 38px !important;
+  height: 38px !important;
+}

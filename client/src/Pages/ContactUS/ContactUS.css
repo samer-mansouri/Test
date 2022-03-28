@@ -1,0 +1,41 @@
+.back {
+  background-image: url("../../assets/companyy.jpg") !important;
+  background-size: cover !important;
+}
+.contact img {
+  width: 120px !important;
+}
+.contactt img {
+  width: 120px !important;
+}
+.attr {
+  text-decoration: none !important;
+  font-size: 50px !important;
+  font-family: "Comic sans Ms", cursive, sans-serif !important;
+  font-style: italic !important;
+  color: #dc3545 !important;
+  animation: none;
+}
+.para {
+  text-decoration: none !important;
+  font-size: 50px !important;
+  font-family: "Comic sans Ms", cursive, sans-serif !important;
+  font-style: italic !important;
+  color: rgb(26, 23, 23) !important;
+  animation: none;
+}
+.contact {
+  display: flex;
+  margin-right: 500px;
+}
+.contactt {
+  display: flex;
+  margin-top: 100px;
+  margin-right: 250px;
+}
+@media screen and (min-width: 900px) {
+  .back {
+    width: 1230px;
+    height: 500px;
+  }
+}
